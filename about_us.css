@@ -1,0 +1,227 @@
+body {
+margin: 0;
+font-family:  'Roboto', sans-serif;
+background-color: rgba(0, 0, 0, 0.1);
+}
+
+*,
+*::before,
+*::after  {
+   box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+
+}
+.header{
+  box-sizing: border-box;
+  background-color: white;
+}
+.header__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__link{
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700px;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  margin-left: 50px;
+  transition: color .2s;
+}
+.nav__link:first-child{
+  margin-left: 0;
+}
+.nav__link:hover {
+  color: rgb(75, 165, 85);
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+.header__logo{
+  cursor: pointer;
+}
+
+.header__inner2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*====Container=====*/
+
+.container__inner{
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/evos_a.jpeg') no-repeat center / cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 700px;
+}
+.about_us{
+  text-align: center;
+  background-color: white;
+  width: 700px;
+margin-left: 250px;
+border: 2px solid gray;
+border-radius: 15px;
+padding: 10px 40px;
+
+
+}
+
+ .numbers{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+
+}
+
+ .numbers_block{
+
+
+  width: 33.3333%;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 100px;
+
+}
+.num{
+  font-size: 70px;
+  color: rgb(75, 165, 85);
+}
+.text{
+  font-size: 15px;
+  opacity: 0.6;
+}
+
+        .main-scroll-div {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+        }
+
+        .cover {
+            position: relative;
+            width: 90%;
+            height: 50%;
+        }
+
+        .cover::before {
+            position: absolute;
+            content: "";
+            left: 0;
+            top: 0;
+            z-index: 99;
+            height: 100%;
+            width: 150px;
+            background-image: linear-gradient(90deg, black, transparent);
+        }
+
+        .cover::after {
+            position: absolute;
+            content: "";
+            right: 0;
+            top: 0;
+            z-index: 99;
+            height: 100%;
+            width: 150px;
+            background-image: linear-gradient(-90deg, black, transparent);
+        }
+
+        .scroll-images {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            overflow: auto;
+            position: relative;
+            scroll-behavior: smooth;
+        }
+
+        .child {
+            min-width: 600px;
+            height: 450px;
+            margin: 1px 10px;
+            cursor: pointer;
+            border: 1px solid rgba(207, 201, 201, .3);
+            overflow: hidden;
+        }
+
+        .scroll-images::-webkit-scrollbar {
+            -webkit-appearance: none;
+        }
+
+        .child-img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .icon {
+            color: rgb(67, 247, 76);
+            background-color: black;
+            font-size: 50px;
+            outline: none;
+            border: none;
+            padding: opx 20px;
+            cursor: pointer;
+        }
+
+        .icon:hover {
+            color: yellow;
+        }
+        .head_text{
+          text-align: center;
+          font-size: 50px;
+          align-items: center;
+
+        }
+        /*===footer===*/
+
+        .footer{
+          padding: 30px 0;
+          background-color: rgba(0, 0, 0, 0.1);
+
+        }
+        .socials {
+          display: flex;
+          text-align: center;
+          justify-content: center;
+          align-items: center;
+
+        }
+        .social__item{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 60px;
+          height: 60px;
+          border: 1px solid black;
+          border-radius: 150px;
+          margin-right: 25px;
+          opacity: 0.5;
+            transition: 1s;
+        }
+
+
+
+        .footer__nav{
+          text-align: center;
+          margin-top: 30px;
+          opacity: 0.7;
+        }
+        .social__item:hover,
+        .social__item:focus{
+        -webkit-transform: rotate(360deg);
+              -ms-transform: rotate(360deg);
+                  transform: rotate(360deg);
+                  opacity: 1;

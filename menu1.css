@@ -1,0 +1,287 @@
+body {
+margin: 0;
+font-family:  'Roboto', sans-serif;
+background-color: rgba(0, 0, 0, 0.1);
+}
+
+*,
+*::before,
+*::after  {
+   box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+
+}
+.header{
+  box-sizing: border-box;
+  background-color: white;
+}
+.header__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__link{
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700px;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  margin-left: 50px;
+  transition: color .2s;
+}
+.nav__link:first-child{
+  margin-left: 0;
+}
+.nav__link:hover {
+  color: rgb(75, 165, 85);
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+.header__logo{
+  cursor: pointer;
+}
+
+.header__inner2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar{
+  background-color: white;
+  border: 5px solid rgb(77,153,45);
+  border-radius: 30px;
+  margin-top: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.item{
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 65px;
+  color: black;
+}
+
+/********/
+
+.menu h1{
+background-color: white;
+text-align: center;
+}
+.cards{
+  display: flex;
+  justify-content: center;
+}
+.card{
+
+  background-color:rgb(77,153,45);
+  width: 300px;
+  height: 450px;
+  margin: 10px;
+  border-radius: 30px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  box-shadow: 2px 2px 10px black;
+}
+.card__image{
+  background-color: white;
+  height: 200px;
+  margin-bottom: 15px;
+  background-size: cover;
+    border-radius: 30px 30px 30px 30px;
+}
+.card-1{
+  position: relative;
+  background-image: url("img/gov.jpeg");}
+  .card-2{
+    background-image: url("img/kur.jpeg");}
+    .card-3{
+      background-image: url("img/gov_mini.jpeg");
+}
+    .card-4{
+      background-image: url("img/kur_mini.jpeg");
+}
+    .card-5{
+      background-image: url("img/gov_che.jpeg");
+}
+    .card-6{
+      background-image: url("img/kur_che.jpeg");
+}
+    .card-7{
+      background-image: url("img/gov_che_mini.jpeg");
+}
+    .card-8{
+      background-image: url("img/kur_che_mini.jpeg");
+}
+    .card-9{
+      background-image: url("img/gov_hot.jpeg");
+}
+    .card-10{
+      background-image: url("img/kur_hot.jpeg");
+}
+    .card-11{
+      background-image: url("img/fitter.jpeg");
+}
+    .card-12{
+      background-image: url("img/w_gov_mini.jpeg");
+}
+    .card-13{
+      background-image: url("img/w_kur_mini.jpeg");
+}
+    .card-14{
+      background-image: url("img/w_gov.jpeg");
+}
+    .card-15{
+      background-image: url("img/w_kur.jpeg");
+}
+    .card-16{
+      background-image: url("img/w_gov_hot.jpeg");
+}
+    .card-17{
+      background-image: url("img/w_kur_hot.jpeg");
+}
+    .card-18{
+      background-image: url("img/gamburger.jpeg");
+}
+    .card-19{
+      background-image: url("img/dablburger.jpeg");
+}
+    .card-20{
+      background-image: url("img/chizburger.jpeg");
+}
+    .card-21{
+      background-image: url("img/Double_cheeseburger.jpeg");
+}
+    .card-22{
+      background-image: url("img/hot_dog.jpeg");
+}
+    .card-23{
+      background-image: url("img/dabl_hot_dog.jpeg");
+}
+    .card-24{
+      background-image: url("img/sub_s_kur.jpeg");
+}
+    .card-25{
+      background-image: url("img/sub_s_gov.jpeg");
+}
+    .card-26{
+      background-image: url("img/sub_s_kur_che.jpeg");
+}
+    .card-27{
+      background-image: url("img/sub_s_gov_che.jpeg");
+}
+    .card-28{
+      background-image: url("img/donar_gov.jpeg");
+}
+    .card-29{
+      background-image: url("img/donar_kur.jpeg");
+}
+    .card-30{
+      background-image: url("img/strip.jpeg");
+}
+    .card-31{
+      background-image: url("img/medovik.jpeg");
+}
+    .card-32{
+      background-image: url("img/cheesecake.jpeg");
+}
+    .card-33{
+      background-image: url("img/donat.jpeg");
+}
+    .card-34{
+      background-image: url("img/donat_kar.jpeg");
+}
+    .card-35{
+      background-image: url("img/tea_coffee.jpeg");
+}
+    .card-36{
+      background-image: url("img/tea_coffee.jpeg");
+}
+    .card-37{
+      background-image: url("img/tea_coffee.jpeg");
+}
+    .card-38{
+      background-image: url("img/tea_coffee.jpeg");
+}
+    .card-39{
+      background-image: url("img/tea_coffee.jpeg");
+}
+    .card-40{
+      background-image: url("img/tea_coffee.jpeg");
+}
+    .card-41{
+      background-image: url("img/tea_coffee.jpeg");
+}
+
+.card button{
+  display: flex;
+  font-size: 20px;
+  border: none;
+  text-align: center;
+  left: 50px;
+  padding: 10px;
+  border-radius: 15px;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  transition: 0.2s;
+  margin-top: 40px;
+}
+.card button:hover{
+    background-color: rgba(197, 53, 53, 0.5);
+}
+.card h3{
+
+  word-spacing: 10px;
+  letter-spacing: 1px;
+  margin-top: 25px;
+
+}
+/*===footer===*/
+
+.footer{
+  padding: 30px 0;
+  background-color: rgba(0, 0, 0, 0.1);
+
+}
+.socials {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+}
+.social__item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border: 1px solid black;
+  border-radius: 150px;
+  margin-right: 25px;
+  opacity: 0.5;
+    transition: 1s;
+}
+
+
+
+.footer__nav{
+  text-align: center;
+  margin-top: 30px;
+  opacity: 0.7;
+}
+.social__item:hover,
+.social__item:focus{
+-webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+          opacity: 1;
